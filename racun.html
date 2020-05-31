@@ -1,0 +1,332 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="logo.jpg">
+    <style>
+        [class*="-col-"] {
+          width: 100%;
+          float:left;
+        }
+        @media only screen and (max-width: 600px) {
+            .t-ac3{
+                text-align:center;
+            }
+            .ta-r3{
+                text-align:right;
+            }
+            .f-l3{
+                float:left;
+            }
+            .f-r3{
+                float:right;
+            }
+            .p-l3{
+                 padding-left:25px;
+            }
+            .p-r3{
+                padding-right:25px;
+            }
+
+            .TableData tr {
+                display: block;
+                padding-top: 25px;
+            }
+            .TableData tr {
+                border-bottom: none;
+            }
+
+            .TableData td {
+                border-bottom: 1px solid black;
+                display: block;
+                font-size: .8em;
+                text-align: right;
+            }
+
+            .TableData td::before {
+                content: attr(data-label);
+                float: left;
+                font-weight: bold;
+                text-transform: uppercase;
+            }
+            .TableData .row-none{
+                display: none;
+            }
+            .d-n3{
+                display:none;
+            }
+        }
+        @media only screen and (min-width: 600px) {
+          /* For tablets: */
+          .col-s-0-01{width:2.5%;}
+          .col-s-0-1{width: 5%;}
+          .col-s-0-2{width: 10%;}
+          .col-s-1 {width: 8.33%;}
+          .col-s-1-1{width: 11.42%;}
+          .col-s-1-2{width: 12.5%}
+          .col-s-2 {width: 16.66%;}
+          .col-s-3 {width: 25%;}
+          .col-s-4 {width: 33.33%;}
+          .col-s-5 {width: 41.66%;}
+          .col-s-6 {width: 50%;}
+          .col-s-7 {width: 58.33%;}
+          .col-s-8 {width: 66.66%;}
+          .col-s-9 {width: 75%;}
+          .col-s-10 {width: 83.33%;}
+          .col-s-11 {width: 91.66%;}
+          .col-s-12 {width: 100%;}
+          .d-n1{
+                display:none;
+          }
+          .f-l1{
+                float:left;
+          }
+          .f-r1{
+                float:right;
+          }
+          .ta-r1{
+                text-align:right;
+          }
+          .p-l1{
+                padding-left:25px;
+          }
+          .p-r1{
+                padding-right:25px;
+          }
+        }
+        @media only screen and (min-width: 768px) {
+          /* For desktop: */
+          .col-0-1{width: 5%;}
+          .col-0-2{width: 7.14%;}
+          .col-1 {width: 8.33%;}
+          .col-1-1{width: 10%;}
+          .col-1-2{width: 15%;}
+          .col-2 {width: 16.66%;}
+          .col-2-1{width: 17.14%;}
+          .col-3 {width: 25%;}
+          .col-4 {width: 33.33%;}
+          .col-4-1{width: 35%}
+          .col-5 {width: 41.66%;}
+          .col-6 {width: 50%;}
+          .col-7 {width: 58.33%;}
+          .col-8 {width: 66.66%;}
+          .col-9 {width: 75%;}
+          .col-10 {width: 83.33%;}
+          .col-10-1{width: 85%}
+          .col-11 {width: 91.66%;}
+          .col-12 {width: 100%;}
+          .d-n2{
+                display:none;
+          }
+          .f-l2{
+                float:left;
+           }
+          .f-r2{
+                float:right;
+          }
+          .ta-r2{
+                text-align:right;
+            }
+          .p-l2{
+                padding-left:25px;
+          }
+          .p-r2{
+                padding-right:25px;
+          }
+        }
+        table, th, td {
+          border-collapse: collapse;
+        }
+        * {
+            box-sizing: border-box;
+        }
+        .b-t2{
+            border-top: 2px solid black;
+        }
+        .b-b2{
+            border-bottom: 2px solid black;
+        }
+        .b-b1{
+            border-bottom: 1px solid black;
+        }
+        .ta-l{
+            text-align:left;
+        }
+        .ta-r{
+            text-align:right;
+        }
+        .ta-c{
+            text-align:center;
+        }
+        .f-l{
+            float:left;
+        }
+        .f-r{
+            float:right;
+        }
+        .f-w-b{
+            font-weight: bold;
+        }
+    </style>
+    <title>Račun številka: 0000-0000</title>
+</head>
+<body>
+    <div class="centering-upper-el">
+        <img src="logo.jpg" alt= "logo" height="50px" width="100px">
+    </div>
+    <div class="centering-upper-el" style="padding-bottom:50px;">
+        PODJETJE<br/>
+        <span class="f-w-b">JANEZ NOVAK s.p.</span><br/>
+        <span class="f-w-b" style="font-size:12px;vertical-align:top;">Naslov 000, 0000 Pošta, tel.: 00/000-00-00</span>
+    </div>
+    <table style="width:100%;">
+        <tr>
+            <td class="col-6 f-w-b col-s-6 p-l1 p-l2 -col-">
+                <div class="centering-upper-el">
+                    POSLOVNI PARTNER d.o.o.<br/>
+                    Naslov 000<br/><br class="d-n3"/>
+                    0000 Pošta<br/><br/>
+                </div>
+            </td>
+            <td class="col-6 col-s-6 ta-r1 ta-r2 f-r1 f-r2 p-r1 p-r2 -col- centering-upper-el">
+                <table class="f-r1 f-r2 f-l3">
+                    <tr>
+                        <td class="f-w-b">Račun :&nbsp;</td>
+                        <td class="f-w-b f-l"><b>0000-0000</b></td>
+                    </tr>
+                    <tr>
+                        <td class="f-w-b">Datum :&nbsp;</td>
+                        <td class="f-l">00.00.0000</td>
+                    </tr>
+                    <tr>
+                        <td class="f-w-b">Valuta :&nbsp;</td>
+                        <td class="f-l">00.00.0000</td>
+                    </tr>
+                    <tr>
+                        <td class="f-w-b">Kraj izdaje :&nbsp;</td>
+                        <td class="f-l">Kraj</td>
+                    </tr>
+                    <tr>
+                        <td class="f-w-b">Datum opravljene storitve :&nbsp;</td>
+                        <td class="f-l">00.00.0000</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+    <div style="padding: 25px 0px 25px 0px;">
+        Iden. št. za DDV: SI00000000
+    </div>
+    <div>
+        Zaračunamo vam storitve od 00.00.0000 do 0.00.0000
+    </div>
+    <table class="TableData" style="width:100%;position:relative;height:auto;">
+        <tr class="b-t2 b-b2 f-w-b row-none">
+            <td class="ta-c col-0-1 col-s-0-1">Št.</td>
+            <td class="ta-c col-2-1 col-s-0-1">Šifra</td>
+            <td class="ta-c col-2-1 col-s-0-1">Opis</td>
+            <td class="ta-c col-1-1 col-s-0-1">Količina Enota</td>
+            <td class="ta-c col-0-2 col-s-1-2">Cena brez<br/>DDV</td>
+            <td class="ta-c col-0-2 col-s-0-01">Popust</td>
+            <td class="ta-c col-0-2 col-s-1-2">Znesek<br/>popusta</td>
+            <td class="ta-c col-0-2 col-s-1-2">Cena s<br/>popustom</td>
+            <td class="ta-c col-0-2 col-s-0-01">Davek</td>
+            <td class="ta-c col-0-2 col-s-1-2">Cena z<br/>DDV</td>
+            <td class="ta-r col-0-2 col-s-1-2">Znesek</td>
+        </tr>
+        <tr class="b-b1">
+            <td class="ta-c col-0-1 col-s-0-1" data-label="Št.">1</td>
+            <td class="ta-c col-4-1 col-s-0-2" data-label="Šifra, Opis" colspan="2">STORITEV</td>
+            <td class="ta-c col-1-1 col-s-0-1" data-label="Količina, Enota">1 X</td>
+            <td class="ta-c col-0-2 col-s-1-2" data-label="Cena brez DDV">0.000,00</td>
+            <td class="ta-c col-0-2 col-s-0-01" data-label="Popust">0 %</td>
+            <td class="ta-c col-0-2 col-s-1-2" data-label="Znesek popusta">0,00</td>
+            <td class="ta-c col-0-2 col-s-1-2" data-label="Cena s popustom">0.000,00</td>
+            <td class="ta-c col-0-2 col-s-0-01" data-label="Davek">22 %</td>
+            <td class="ta-c col-0-2 col-s-1-2" data-label="Cena z DDV">0.000,00</td>
+            <td class="ta-r col-0-2 col-s-1-2" data-label="Znesek">0.000,0</td>
+        </tr>
+        <tr class="b-b1">
+            <td class="ta-c col-0-1 col-s-0-1" data-label="Št.">2</td>
+            <td class="ta-c col-4-1 col-s-0-2" data-label="Šifra, Opis" colspan="2">STORITEV</td>
+            <td class="ta-c col-1-1 col-s-0-1" data-label="Količina, Enota">1 X</td>
+            <td class="ta-c col-0-2 col-s-1-2" data-label="Cena brez DDV">0.000,00</td>
+            <td class="ta-c col-0-2 col-s-0-01" data-label="Popust">0 %</td>
+            <td class="ta-c col-0-2 col-s-1-2" data-label="Znesek popusta">0,00</td>
+            <td class="ta-c col-0-2 col-s-1-2" data-label="Cena s popustom">0.000,00</td>
+            <td class="ta-c col-0-2 col-s-0-01" data-label="Davek">22 %</td>
+            <td class="ta-c col-0-2 col-s-1-2" data-label="Cena z DDV">0.000,00</td>
+            <td class="ta-r col-0-2 col-s-1-2" data-label="Znesek">0.000,0</td>
+        </tr>
+    </table>
+    <table style="width:100%;" class="f-w-b">
+        <tr>
+            <td class="ta-r col-10-1">Znesek brez DDV skupaj</td>
+            <td class="ta-r col-1-2">0.000,00</td>
+        </tr>
+        <tr>
+            <td class="ta-r col-10-1">DDV skupaj</td>
+            <td class="ta-r col-1-2">000,00</td>
+        </tr>
+        <tr>
+            <td class="ta-r col-10-1">Znesek z DDV skupaj</td>
+            <td class="ta-r col-1-2">0.000,00</td>
+        </tr>
+    </table>
+    <hr style="margin:0px; border:1px solid black;width:50%;float:right;"/>
+    <table style="width:100%;">
+        <tr class="f-w-b">
+            <td class="b-b2 d-n3">Z besedo EUR: znesek 00/100</td>
+            <td class="b-b2 ta-r d-n3">0.000,00</td>
+            <td class="b-b2 d-n1 d-n2">Z besedo EUR:</td>
+            <td class="b-b2 ta-r d-n1 d-n2">znesek 00/100</td>
+        </tr>
+    </table>
+    <div style="f-w-b">
+        Specifikacija davka
+    </div>
+    <table style="width:100%;">
+        <tr class="b-b2 b-t2 f-w-b">
+            <td class="col-6">Opis davka</td>
+            <td class="col-2 ta-c">Stopnja davka</td>
+            <td class="col-2 ta-c">Osnova brez davka</td>
+            <td class="col-2 ta-r">Znesek davka</td>
+        </tr>
+        <tr class="b-b1">
+            <td class="col-6">DDV 22%</td>
+            <td class="col-2 ta-c">22,00</td>
+            <td class="col-2 ta-c">0.000,00</td>
+            <td class="col-2 ta-r">000,00</td>
+        </tr>
+    </table>
+    <br/>
+    <br/>
+    Pri plačilu se sklicujte<br class="d-n1 d-n2"/> na številko -00000-0000 !<br/>
+    Prosim, da račun poravnate do valute plačila.<br/><br/>
+    Izdal<br/>
+    Janez Novak
+    <div style="padding-top:50px;">
+        <table style="width: 100%;">
+            <tr>
+                <td class="ta-c">
+                    PODJETJE S.P., Naslov 000, Kraj,
+                </td>
+            </tr>
+            <tr>
+                <td class="ta-c">
+                    TRR: SI00000000000000000,
+                </td>
+            </tr>
+            <tr>
+                <td class="ta-c">
+                    Telefon: +386 00 000 000, E-pošta: janez.novak@gmail.com, Ident. št. za DDV: SI00000000
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
